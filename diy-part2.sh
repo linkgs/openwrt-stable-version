@@ -9,7 +9,7 @@
 #============================================================
 # Modify default IP
 
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.0.252/g' package/base-files/files/bin/config_generate
 # wget  https://raw.githubusercontent.com/coolsnowwolf/packages/master/lang/golang/golang/Makefile -O ./feeds/packages/lang/golang/golang/Makefile
 # wget  https://raw.githubusercontent.com/coolsnowwolf/lede/master/package/lean/v2ray/Makefile -O ./package/lean/v2ray/Makefile
 # wget  https://raw.githubusercontent.com/coolsnowwolf/lede/master/package/lean/v2ray-plugin/Makefile -O ./package/lean/v2ray-plugin/Makefile
